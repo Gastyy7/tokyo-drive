@@ -1,7 +1,16 @@
-body, html {
+body {
     height: 100%;
     margin: 0;
     font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, 
+        #673ab7, 
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ede7f6);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .d-flex {
@@ -11,8 +20,7 @@ body, html {
 .sidebar {
     width: 80px;
     padding: 10px;
-    background-color: #f8f9fa;
-    border-right: 1px solid #ddd;
+    background-color: #7e57c2;
 }
 
 .sidebar-header {
@@ -100,4 +108,29 @@ p {
 .tittle {
     margin-top: 2%;
     margin-left: 2%;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(170, 12, 12);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.car-image {
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    z-index: 1;
 }
