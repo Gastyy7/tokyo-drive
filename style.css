@@ -1,4 +1,4 @@
-body {
+body, html {
     height: 100%;
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -11,6 +11,15 @@ body {
         #ede7f6);
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .d-flex {
@@ -20,8 +29,24 @@ body {
 .sidebar {
     width: 80px;
     padding: 10px;
-    background-color: #7e57c2;
+    background: linear-gradient(to bottom, 
+        #673ab7, 
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ba95f1);
+/*         background: linear-gradient(to top, 
+        #673ab7, 
+        #673ab7,
+        #673ab7,
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ba95f1); */
 }
+
 
 .sidebar-header {
     margin-bottom: 30px;
@@ -110,7 +135,7 @@ p {
     margin-left: 2%;
 }
 
-.container {
+.container-img {
     position: relative;
     width: 800px;
     height: 450px;
@@ -123,7 +148,7 @@ p {
     position: absolute;
     width: 350px;
     height: 350px;
-    background-color: rgb(170, 12, 12);
+    background-color: #673ab7;
     border-radius: 50%;
     z-index: 0;
 }
@@ -135,6 +160,9 @@ p {
     z-index: 1;
 }
 
-.bi {
-    color: white;
+.social-icon {
+    color: #673ab7;
+}
+.sidebar-icon{
+    color: white
 }
