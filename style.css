@@ -120,19 +120,12 @@ p {
     margin-bottom: 30px;
 }
 
-.titulo {
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    color: white; 
-    font-size: 3rem; 
-    z-index: 10; 
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
-}
-
 .tittle {
     margin-top: 2%;
     margin-left: 2%;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
 }
 
 .container-img {
@@ -148,7 +141,7 @@ p {
     position: absolute;
     width: 350px;
     height: 350px;
-    background-color: #673ab7;
+    background-color: red;
     border-radius: 50%;
     z-index: 0;
 }
@@ -165,4 +158,24 @@ p {
 }
 .sidebar-icon{
     color: white
+}
+
+.slogan {
+    color: white;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+}
+
+.slogan2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: red;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 33px;
+    letter-spacing: 20px;
+    font-family: "Noto Serif JP", serif;
 }
