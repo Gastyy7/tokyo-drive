@@ -124,7 +124,7 @@ p {
     margin-top: 2%;
     margin-left: 2%;
     color: white;
-    font-family: "Dancing Script", cursive;
+    font-family: "Trade Winds", system-ui;
     font-size: 60px;
 }
 
@@ -175,7 +175,7 @@ p {
     color: red;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-size: 33px;
+    font-size: 40px;
     letter-spacing: 20px;
     font-family: "Noto Serif JP", serif;
 }
