@@ -139,8 +139,8 @@ p {
 
 .circle {
     position: absolute;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     background-color: red;
     border-radius: 50%;
     z-index: 0;
@@ -148,7 +148,7 @@ p {
 
 .car-image {
     position: relative;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     z-index: 1;
 }
@@ -164,6 +164,15 @@ p {
     color: white;
     font-family: "Playwrite GB S", cursive;
     font-size: 20px;
+    padding-left: 5%;
+}
+
+.slogan1 {
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+    padding-left: 5%;
+    font-size: 25px;
 }
 
 .slogan2 {
