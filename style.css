@@ -1,0 +1,192 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, 
+        #673ab7, 
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ede7f6);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.d-flex {
+    height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    padding: 10px;
+    background: linear-gradient(to bottom, 
+        #673ab7, 
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ba95f1);
+/*         background: linear-gradient(to top, 
+        #673ab7, 
+        #673ab7,
+        #673ab7,
+        #7e57c2, 
+        #9575cd, 
+        #b39ddb, 
+        #d1c4e9, 
+        #ba95f1); */
+}
+
+
+.sidebar-header {
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.collapse.show ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+
+.sidebar-header .btn {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.components {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.components li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.components li a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    display: block;
+    font-size: 18px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.main-content {
+    padding: 40px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tittle {
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+    font-family: "Trade Winds", system-ui;
+    font-size: 60px;
+}
+
+.container-img {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 0;
+    top: -125px; 
+}
+
+.car-image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    padding-bottom: 39%;
+}
+
+.social-icon {
+    color: #673ab7;
+}
+.sidebar-icon{
+    color: white
+}
+
+.slogan {
+    color: white;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.slogan1 {
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.slogan2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: red;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-family: "Noto Serif JP", serif;
+}
