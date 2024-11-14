@@ -1,0 +1,25 @@
+<nav id="sidebar" class="sidebar">
+  <div class="sidebar-header text-center">
+    <button id="sidebarToggle" class="btn btn-light" (click)="toggleSidebar()">
+      <i class="bi sidebar-icon bi-list"></i>
+    </button>
+  </div>
+
+  <ul class="collapse list-unstyled text-center" [ngClass]="{'show': isSidebarCollapsed}" id="collapseMenu">
+    <li class="mb-3">
+      <a href="#" class="text-dark"><i class="bi sidebar-icon bi-house-door-fill fs-4"></i></a>
+    </li>
+    <li class="mb-3">
+      <a href="#" class="text-dark"><i class="bi sidebar-icon bi-box-seam fs-4"></i></a>
+    </li>
+    <li class="mb-3">
+      <a href="#" class="text-dark"><i class="bi sidebar-icon bi-envelope-fill fs-4"></i></a>
+    </li>
+  </ul>
+
+  <div class="social-icons text-end">
+    <a href="#" class="text-dark mx-3"><i class="bi social-icon bi-facebook fs-4"></i></a>
+    <a href="#" class="text-dark mx-3"><i class="bi social-icon bi-youtube fs-4"></i></a>
+    <a href="#" class="text-dark mx-3"><i class="bi social-icon bi-instagram fs-4"></i></a>
+  </div>
+</nav>

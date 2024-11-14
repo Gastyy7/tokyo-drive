@@ -1,0 +1,48 @@
+.sidebar {
+    width: 80px;
+    padding: 10px;
+    background: linear-gradient(to bottom, 
+      #673ab7, 
+      #7e57c2, 
+      #9575cd, 
+      #b39ddb, 
+      #d1c4e9, 
+      #ba95f1);
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar-header {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-header .btn {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .collapse.show ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .sidebar-icon {
+    color: white;
+  }
+  
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .social-icons a {
+    display: block;
+    font-size: 18px;
+    color: #000;
+    margin: 15px 0;
+  }
+  
